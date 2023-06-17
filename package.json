@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "source .env && react-scripts build --output-path=public",
+    "build": "set /p DUMMY_VAR=<.env && react-scripts build --output-path=public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
