@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/random-spotify/static/css/main.4891b6df.css",
-    "main.js": "/random-spotify/static/js/main.71a561fa.js",
+    "main.js": "/random-spotify/static/js/main.3a529378.js",
     "static/media/pngegg.png": "/random-spotify/static/media/pngegg.6620a777b2ebed92f4e4.png",
     "index.html": "/random-spotify/index.html",
     "main.4891b6df.css.map": "/random-spotify/static/css/main.4891b6df.css.map",
-    "main.71a561fa.js.map": "/random-spotify/static/js/main.71a561fa.js.map"
+    "main.3a529378.js.map": "/random-spotify/static/js/main.3a529378.js.map"
   },
   "entrypoints": [
     "static/css/main.4891b6df.css",
-    "static/js/main.71a561fa.js"
+    "static/js/main.3a529378.js"
   ]
 }
