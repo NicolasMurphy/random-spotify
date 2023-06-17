@@ -1,6 +1,7 @@
 {
   "name": "spotify-search-app",
   "version": "0.1.0",
+  "homepage": "https://NicolasMurphy.github.io/random-spotify",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,8 +17,10 @@
     "spotify-web-api-js": "^1.5.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build --output-path=public",
+    "build": "set -a && source .env && react-scripts build --output-path=public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +45,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "daisyui": "^3.1.0",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }

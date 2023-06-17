@@ -1,7 +1,7 @@
 export const refreshAccessToken = async (setAccessToken) => {
     try {
-      const clientId = '476c71bb69f4476a8e5b3f4d64c5bb98';
-      const clientSecret = 'fb641cab33dd449cb46f71cdb1ab82d9';
+      const clientId = process.env.REACT_APP_CLIENT_ID;
+      const clientSecret = process.env.REACT_APP_CLIENT_SECRET;
       const credentials = `${clientId}:${clientSecret}`;
       const encodedCredentials = btoa(credentials);
 
